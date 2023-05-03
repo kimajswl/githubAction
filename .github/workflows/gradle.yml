@@ -35,3 +35,6 @@ jobs:
 
     - name: Build pwd
       run: pwd
+      
+    - name: Build ls -al
+      run: ls -al
