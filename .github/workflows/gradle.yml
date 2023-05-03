@@ -38,3 +38,6 @@ jobs:
       
     - name: Build ls -al
       run: ls -al
+      
+    - name: Buils Gradle
+      run: ./gradle bootjar
